@@ -2,7 +2,7 @@ const product = document.querySelectorAll(".ProductCard");                      
 let productVisible = [];                                                        //Création d'un tableau vide
 
 let productList = document.querySelector("#productList");
-let productListHeightInit = productList.getBoundingClientRect().height;
+let productListHeightInit = productList.getBoundingClientRect().height;         //Variable comportant la valeur de la hauteur de 'productList'
 
 const checkIsVisible = (element) => {                                           
     const rect = element.getBoundingClientRect();                               //Variable comportant les dimensions totales de l'objet 'element'        
